@@ -1,4 +1,5 @@
-https://github.com/user-attachments/assets/e109f621-d2db-4427-be73-77a55fb880ba
+<img width="1500" height="500" alt="banner" src="https://github.com/user-attachments/assets/d95379f9-6269-4f4d-ae17-0b1f577e870c" />
+
 
 
 # LVM20
@@ -13,15 +14,24 @@ Graduado em Análise e Desenvolvimento de Sistemas e pós-graduado em Segurança
 
 Tenho experiência prática em ambientes simulados utilizando ferramentas como Wazuh, Splunk, Wireshark, Nmap e Burp Suite, atuando em análise de logs, triagem de alertas, investigação de IOCs e análise de tráfego em ambientes Windows e Linux.
 
-Possuo conhecimentos em hardening, redes e automação com Bash e Python aplicada à segurança, além de aplicação de frameworks como MITRE ATT&CK e NIST CSF.
+Possuo conhecimentos em hardening, redes e automação com Bash e Python aplicada à segurança, além da aplicação de frameworks como MITRE ATT&CK e NIST CSF.
 
 Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporativa e segurança em ambientes Windows.
 
 ---
 
-## 🏆 TryHackMe
+## 🏆 TryHackMe Journey
 
 [![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/LVM.png)](https://tryhackme.com/p/LVM)
+
+### 🔥 Highlights
+
+- 🧠 100-day learning streak (completed)
+- 📊 SOC simulation & log analysis practice
+- 🪟 Windows exploitation fundamentals (EternalBlue)
+- 🐧 Linux fundamentals
+- 🕵️ OSINT & investigation rooms
+- 🔐 Hash cracking & vulnerability analysis
 
 ---
 
@@ -29,9 +39,9 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 
 - Blue Team / Defensive Security
 - Active Directory (AD) environments
-- SOC & Log Analysis
+- SOC & Security Monitoring
+- Log Analysis & Incident Detection
 - Windows Server & Networking
-- Incident Detection & Response
 - Identity & Access Management (IAM)
 
 ---
@@ -42,6 +52,7 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 - 📊 Log Analysis with Wazuh & Splunk
 - 🌐 Network Traffic Analysis (Wireshark)
 - 🔐 Security Monitoring in Simulated Environments
+- 🪟 Windows Server Domain Infrastructure Lab
 
 ---
 
@@ -70,8 +81,17 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 
 ---
 
+## 🚀 Learning Timeline
+
+- 🧠 TryHackMe (100 days hands-on learning)
+- 🧪 Active Directory Corporate Lab
+- 📊 SIEM & Log Analysis (Wazuh / Splunk)
+- 🪟 Windows Infrastructure & Security Fundamentals
+
+---
+
 ## 🚀 Goal
 
-To develop strong hands-on skills in Blue Team operations, focusing on detection, investigation, and security hardening in enterprise environments.
+To develop strong hands-on skills in Blue Team operations, focusing on detection, investigation, and security hardening in enterprise environments, aiming for a Junior Security Analyst role.
 
 ---
