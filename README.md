@@ -8,79 +8,79 @@
 ![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-red)
 ![Python](https://img.shields.io/badge/Python-Scripting-yellow)
 
-### 🛡️ Analista de Segurança em Formação | Blue Team | Infraestrutura Windows | Active Directory
+---
 
-Graduado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Segurança da Informação**, desenvolvo minha carreira em Cibersegurança com foco em **Segurança Defensiva (Blue Team)** através de estudos contínuos, laboratórios hands-on e projetos práticos voltados para ambientes corporativos.
+# 👨‍💻 Sobre Mim
 
-Meu objetivo é construir uma base sólida em infraestrutura Windows, monitoramento de segurança, Active Directory e resposta a incidentes, simulando cenários encontrados em empresas.
+Graduado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Segurança da Informação**, construo minha trajetória em Cibersegurança com foco em **Segurança Defensiva (Blue Team)** por meio de estudos contínuos, laboratórios hands-on e projetos práticos voltados para ambientes corporativos.
+
+Atualmente concentro meus estudos em **Active Directory**, **Windows Server**, **Identity & Access Management (IAM)**, **SIEM**, **monitoramento de segurança** e **resposta a incidentes**, desenvolvendo laboratórios próprios para simular cenários encontrados em empresas.
+
+Meu objetivo é transformar conhecimento técnico em experiência prática através da implementação, documentação e evolução contínua de projetos de infraestrutura e segurança.
 
 ---
 
 # 🚀 Objetivo Profissional
 
-Busco minha primeira oportunidade como **Analista de Segurança Júnior**, contribuindo com monitoramento de ambientes, investigação de incidentes, hardening, gerenciamento de identidades e fortalecimento da postura de segurança das organizações.
+Busco minha primeira oportunidade como **Analista de Segurança Júnior**, contribuindo para atividades de:
+
+* Monitoramento de ambientes corporativos
+* Investigação de incidentes
+* Hardening de servidores e estações
+* Gerenciamento de Identidades e Acessos (IAM)
+* Active Directory
+* SIEM e análise de logs
+* Fortalecimento da postura de segurança das organizações
 
 ---
 
-# 🎯 Áreas de Interesse
+# 🧪 Projeto em Destaque
 
-* 🛡️ Blue Team
-* 📊 Security Operations Center (SOC)
-* 🪟 Active Directory
-* 🔐 Identity & Access Management (IAM)
-* 📈 SIEM & Log Analysis
-* 🚨 Incident Detection & Response
-* 🌐 Redes
-* ⚙️ Hardening Windows e Linux
-* ☁️ Infraestrutura Corporativa
+## 🏢 Active Directory Corporate Lab
 
----
+Simulação de uma infraestrutura corporativa utilizando **Windows Server 2025**.
 
-# 🧪 Projetos
-
-## 🏢 Active Directory Corporate Lab (Concluído)
-
-Laboratório corporativo utilizando Windows Server 2025 simulando uma empresa real.
-
-### Implementações
+### ✔ Implementações
 
 * Active Directory Domain Services (AD DS)
 * DNS
 * Organizational Units (OUs)
 * Usuários e Grupos
-* Compartilhamento de Arquivos
-* Controle de Acesso baseado em Grupos (RBAC)
+* Controle de acesso baseado em grupos (RBAC)
+* Compartilhamento de arquivos
 * Windows 10 ingressado no domínio
 * Estrutura organizacional corporativa
-* Documentação completa do ambiente
+* Ambiente totalmente documentado
 
-🔗 Repositório:
-[(https://github.com/LVM20/LVM-Active-Directory-Lab)](https://github.com/LVM20/LVM-Active-Directory-Lab)
+🔗 **Repositório**
+
+https://github.com/LVM20/LVM-Active-Directory-Lab
 
 ---
 
-## 🚧 Projetos em Desenvolvimento
+# 🛣️ Roadmap de Projetos
 
-* 🔐 Group Policy (GPO) & Hardening
-* 📊 Wazuh + Sysmon Lab
-* 🚨 Incident Detection Lab
-* 🔍 Incident Response Lab
-* 📈 Vulnerability Management Lab
+* ✅ Active Directory Corporate Lab
+* 🔄 Group Policy (GPO) & Hardening
+* 🔄 Wazuh + Sysmon Lab
+* 🔄 Incident Detection Lab
+* 🔄 Incident Response Lab
+* 🔄 Vulnerability Management Lab
 
 ---
 
 # 🏆 TryHackMe
 
-<img width="1280" height="266" alt="thm" src="https://github.com/user-attachments/assets/af7cafe3-1891-4fbb-b1b2-aff97b30dc9a" />
+<img width="1280" height="266" alt="TryHackMe" src="https://github.com/user-attachments/assets/af7cafe3-1891-4fbb-b1b2-aff97b30dc9a" />
 
 ## Destaques
 
 * 🥇 Top 1% Global
-* 🔥 100 dias consecutivos de estudos
+* 🔥 100 dias consecutivos de aprendizado
 * 🛡️ Logging Legend
 * 🚨 SOC Simulator
 * 🎯 100% True Positive Rate
-* 📊 SOC Alert Investigation
+* 📊 Investigação de Alertas
 * 🪟 Windows Fundamentals
 * 🐧 Linux Fundamentals
 * 🌐 Web Fundamentals
@@ -95,24 +95,11 @@ Laboratório corporativo utilizando Windows Server 2025 simulando uma empresa re
 
 **Google Cybersecurity Professional Certificate**
 
-* Linux
-* SQL
-* Python
-* SIEM
-* Gerenciamento de Riscos
-* Segurança Defensiva
-
 ---
 
 ### IBM
 
 **IBM Cybersecurity Analyst Professional Certificate**
-
-* Redes
-* Monitoramento
-* Vulnerability Management
-* Security Operations
-* Incident Response
 
 ---
 
@@ -120,74 +107,75 @@ Laboratório corporativo utilizando Windows Server 2025 simulando uma empresa re
 
 **Junior Cybersecurity Analyst Career Path**
 
-* Fundamentos de SOC
-* Monitoramento
-* Blue Team
-* Análise de Incidentes
-* Cybersecurity Essentials
-
 ---
 
-# ⚙️ Tecnologias
+# 🛠️ Tecnologias
 
-## Sistemas Operacionais
+### Sistemas Operacionais
 
 * Windows Server
 * Windows
 * Linux
 
-## Segurança
+### Infraestrutura
 
 * Active Directory
+* DNS
+* Group Policy
+* File Server
+
+### Segurança
+
 * Wazuh
 * Wireshark
 * Nmap
 * Burp Suite
 
-## Automação
+### Automação
 
-* Bash
 * Python
+* Bash
 
-## Frameworks
+### Frameworks
 
 * MITRE ATT&CK
 * NIST Cybersecurity Framework (CSF)
 
 ---
 
-# 📈 Atualmente Estudando
+# 📚 Atualmente Estudando
 
 * Active Directory
 * Windows Server
+* Windows Security
 * Group Policy (GPO)
 * Hardening
 * Wazuh
 * Sysmon
 * SIEM
-* Segurança em ambientes corporativos
 * Identity & Access Management (IAM)
+* Incident Detection & Response
 
 ---
 
-# 📊 GitHub
+# 📈 GitHub
 
-Neste perfil você encontrará projetos documentados voltados para:
+Este perfil reúne laboratórios e projetos voltados para ambientes corporativos de Segurança da Informação, com foco em:
 
-* Infraestrutura Windows
-* Active Directory
-* Segurança Defensiva
-* SIEM
-* Monitoramento
-* Resposta a Incidentes
-* Hardening
-* Redes
-* Automação
+* 🛡️ Blue Team
+* 🪟 Active Directory
+* 📊 SIEM
+* 🔍 Monitoramento de Segurança
+* 🚨 Resposta a Incidentes
+* 🔐 IAM
+* ⚙️ Hardening
+* 🌐 Redes
+* 🤖 Automação
 
-Todos os projetos são desenvolvidos em laboratório próprio e documentados com foco em aprendizado contínuo e aplicação prática.
+Todos os projetos são desenvolvidos em laboratório próprio e documentados passo a passo, demonstrando tanto a implementação técnica quanto o processo de aprendizado.
 
 ---
 
-## ⭐ Obrigado por visitar meu perfil!
+# ⭐ Obrigado pela visita!
 
-Estou sempre buscando evoluir tecnicamente através de novos desafios, projetos práticos e estudos em Cibersegurança.
+Estou sempre estudando, construindo novos laboratórios e documentando minha evolução em Cibersegurança. Fique à vontade para acompanhar meus projetos e evolução profissional.
