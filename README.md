@@ -49,7 +49,7 @@ Laboratório corporativo utilizando Windows Server 2025 simulando uma empresa re
 * Documentação completa do ambiente
 
 🔗 Repositório:
-*(Adicionar link após publicação)*
+[*(Adicionar link após publicação)*](https://github.com/LVM20/LVM-Active-Directory-Lab)
 
 ---
 
