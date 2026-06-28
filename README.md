@@ -1,6 +1,12 @@
-<img width="1500" height="500" alt="banner" src="https://github.com/user-attachments/assets/d95379f9-6269-4f4d-ae17-0b1f577e870c" />
+# Leonardo Poncham
 
-# 👋 Olá, eu sou Leonardo (LVM20)
+### 🛡️ Blue Team | SOC | Active Directory | Windows Infrastructure
+
+![Windows Server](https://img.shields.io/badge/Windows%20Server-2025-blue)
+![Active Directory](https://img.shields.io/badge/Active%20Directory-Enterprise-blue)
+![Blue Team](https://img.shields.io/badge/Blue-Team-blue)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-red)
+![Python](https://img.shields.io/badge/Python-Scripting-yellow)
 
 ### 🛡️ Analista de Segurança em Formação | Blue Team | Infraestrutura Windows | Active Directory
 
