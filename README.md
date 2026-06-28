@@ -33,6 +33,8 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 - 🕵️ OSINT & investigation rooms
 - 🔐 Hash cracking & vulnerability analysis
 
+https://tryhackme.com/LVM/badges/platinum-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=69a1905dcb24e675e445364f
+
 ---
 
 ## 🎯 Focus Areas
@@ -66,18 +68,6 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 - Splunk / Wazuh
 - Burp Suite
 - Bash & Python (automation basics)
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LVM20&show_icons=true&theme=radical)
-
----
-
-## 🔥 Top Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LVM20&layout=compact&theme=radical)
 
 ---
 
