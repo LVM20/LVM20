@@ -22,7 +22,8 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 
 ## 🏆 TryHackMe Journey
 
-[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/LVM.png)](https://tryhackme.com/p/LVM)
+<img width="1280" height="266" alt="thm" src="https://github.com/user-attachments/assets/af7cafe3-1891-4fbb-b1b2-aff97b30dc9a" />
+
 
 ### 🔥 Highlights
 
@@ -32,8 +33,6 @@ Atualmente, aprofundo meus estudos em Active Directory, infraestrutura corporati
 - 🐧 Linux fundamentals
 - 🕵️ OSINT & investigation rooms
 - 🔐 Hash cracking & vulnerability analysis
-
-https://tryhackme.com/LVM/badges/platinum-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=69a1905dcb24e675e445364f
 
 ---
 
