@@ -12,11 +12,9 @@
 
 # 👨‍💻 Sobre Mim
 
-Graduado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Segurança da Informação**, construo minha trajetória em Cibersegurança com foco em **Segurança Defensiva (Blue Team)** por meio de estudos contínuos, laboratórios hands-on e projetos práticos voltados para ambientes corporativos.
+Graduado em Análise e Desenvolvimento de Sistemas e pós-graduado em Segurança da Informação, desenvolvo laboratórios práticos voltados para ambientes corporativos com foco em Segurança Defensiva (Blue Team).
 
-Atualmente concentro meus estudos em **Active Directory**, **Windows Server**, **Identity & Access Management (IAM)**, **SIEM**, **monitoramento de segurança** e **resposta a incidentes**, desenvolvendo laboratórios próprios para simular cenários encontrados em empresas.
-
-Meu objetivo é transformar conhecimento técnico em experiência prática através da implementação, documentação e evolução contínua de projetos de infraestrutura e segurança.
+Meu objetivo é transformar conhecimento técnico em experiência prática por meio da implementação, documentação e evolução contínua de projetos envolvendo Active Directory, Windows Server, SIEM, monitoramento de segurança e gerenciamento de identidades.
 
 ---
 
