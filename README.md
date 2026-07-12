@@ -59,7 +59,7 @@ https://github.com/LVM20/LVM-Active-Directory-Lab
 # 🛣️ Roadmap de Projetos
 
 * ✅ Active Directory Corporate Lab
-* 🔄 Group Policy (GPO) & Hardening
+* ✅ Group Policy (GPO) & Hardening
 * 🔄 Wazuh + Sysmon Lab
 * 🔄 Incident Detection Lab
 * 🔄 Incident Response Lab
