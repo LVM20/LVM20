@@ -60,10 +60,14 @@ https://github.com/LVM20/LVM-Active-Directory-Lab
 
 * ✅ Active Directory Corporate Lab
 * ✅ Group Policy (GPO) & Hardening
-* 🔄 Wazuh + Sysmon Lab
-* 🔄 Incident Detection Lab
-* 🔄 Incident Response Lab
+* 🔄 Wazuh SOC Monitoring Lab
+* 🔄 Endpoint Detection & Response (EDR)
+* 🔄 Network Security & Perimeter Defense
 * 🔄 Vulnerability Management Lab
+* 🔄 Threat Hunting & Detection Engineering
+* 🔄 Incident Response Lab
+* 🔄 SOC Final Simulation
+* 🔄 Corporate Penetration Testing Lab
 
 ---
 
