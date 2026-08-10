@@ -75,7 +75,7 @@ Em desenvolvimento:
 |--------|----------|
 | ✅ | Active Directory Corporate Lab |
 | ✅ | Group Policy & Windows Hardening |
-| 🔄 | Wazuh SIEM + Sysmon |
+| ✅ | Wazuh SIEM + Sysmon |
 | 🔄 | Incident Detection & Threat Hunting |
 | 🔄 | Incident Response |
 | 🔄 | Vulnerability Management |
