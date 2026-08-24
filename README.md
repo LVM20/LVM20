@@ -84,6 +84,44 @@ https://github.com/LVM20/LVM-Wazuh-SIEM-Sysmon
 
 ---
 
+## Projeto 4 — Incident Detection & Threat Hunting
+
+Evolução do ambiente de monitoramento para uma abordagem prática de **Threat Detection e Threat Hunting** utilizando o **Wazuh SIEM**.
+
+Foram desenvolvidos **10 casos controlados de investigação** em endpoints Windows, analisando processos, usuários, autenticações, linhas de comando e eventos de segurança.
+
+Entre os cenários investigados:
+
+* Criação de contas e alteração de privilégios
+* Account Manipulation
+* Reconhecimento local
+* Reconhecimento interno
+* PowerShell
+* Windows Command Shell
+* Scheduled Tasks
+* Windows Services
+* PowerShell Encoded Command
+* Análise de Process Trees
+* Falhas de autenticação
+* Limpeza do Windows Security Log
+* Correlação de eventos
+* Análise de Command Line
+* Mapeamento MITRE ATT&CK
+
+Os principais eventos analisados incluíram:
+
+```text
+4624 — Successful Logon
+4625 — Failed Logon
+4688 — Process Creation
+4720 — User Account Created
+4732 — Group Membership Changed
+7045 — Service Installed`
+```
+
+🔗 Repositório:
+https://github.com/LVM20/4-LVM-Incident-Detection-Threat-Hunting
+
 # 🛣️ Evolução do laboratório
 
 | Status | Projeto                                     |
@@ -91,7 +129,7 @@ https://github.com/LVM20/LVM-Wazuh-SIEM-Sysmon
 | ✅      | Active Directory Corporate Lab              |
 | ✅      | Group Policy & Windows Hardening            |
 | ✅      | Wazuh SIEM + Sysmon                         |
-| 🔄     | Incident Detection & Threat Hunting         |
+| ✅     | Incident Detection & Threat Hunting         |
 | 🔄     | Incident Response                           |
 | 🔄     | Vulnerability Management                    |
 | 🔄     | Identity & Access Management                |
