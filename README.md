@@ -130,7 +130,7 @@ https://github.com/LVM20/4-LVM-Incident-Detection-Threat-Hunting
 | ✅      | Group Policy & Windows Hardening            |
 | ✅      | Wazuh SIEM + Sysmon                         |
 | ✅     | Incident Detection & Threat Hunting         |
-| 🔄     | Incident Response                           |
+| ✅     | Incident Response                           |
 | 🔄     | Vulnerability Management                    |
 | 🔄     | Identity & Access Management                |
 | 🔄     | Network Security                            |
