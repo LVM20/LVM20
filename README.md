@@ -118,9 +118,47 @@ Os principais eventos analisados incluíram:
 4732 — Group Membership Changed
 7045 — Service Installed`
 ```
-
 🔗 Repositório:
 https://github.com/LVM20/4-LVM-Incident-Detection-Threat-Hunting
+
+## Projeto 5 — Incident Response
+
+Evolução do laboratório para a simulação e investigação de um cenário completo de **Incident Response**, partindo de um ataque inicial de phishing e acompanhando a cadeia de atividades executadas no ambiente Windows.
+
+O cenário simulado começa quando um usuário do RH recebe um arquivo `.zip`, extrai o conteúdo e executa um arquivo malicioso denominado `Relatorio_RH.exe`. A partir da execução inicial, foram simuladas diferentes técnicas e comportamentos que posteriormente foram investigados através dos eventos coletados pelo **Wazuh + Sysmon**.
+
+Durante a investigação, foram analisados:
+
+* Phishing como vetor inicial
+* Execução de arquivo
+* Discovery
+* `whoami`
+* `hostname`
+* `ipconfig`
+* PowerShell
+* PowerShell Encoded Command (`-enc`)
+* Windows Command Shell
+* LOLBins
+* Scheduled Tasks
+* Tentativas de autenticação no Domain Controller
+* Process Parent/Child
+* Command Line
+* Usuários e Logon IDs
+* Windows Event Logs
+* Correlação de eventos
+* Reconstrução da linha do tempo do incidente
+* Mapeamento MITRE ATT&CK
+
+A investigação foi realizada utilizando principalmente o **Wazuh**, analisando os eventos gerados pelos endpoints Windows e correlacionando diferentes evidências para reconstruir a sequência de atividades desde a execução inicial.
+
+Um dos pontos trabalhados foi a análise de **PowerShell Encoded Command**. A presença de um `EncodedCommand` isoladamente não foi considerada suficiente para determinar que um incidente ocorreu. A investigação levou em consideração o processo pai, usuário, linha de comando, eventos anteriores e posteriores e o contexto geral da atividade.
+
+O projeto teve como objetivo praticar o processo completo de resposta a incidentes:
+
+**Detectar → Investigar → Correlacionar → Responder → Documentar**
+
+🔗 Repositório:
+https://github.com/LVM20/05-LVM-Incident-Response
 
 # 🛣️ Evolução do laboratório
 
