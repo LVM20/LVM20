@@ -1,223 +1,181 @@
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=900&lines=%3E+whoami;LEONARDO+PONCHAM;%3E+cat+focus.txt;BLUE+TEAM+%7C+SOC+%7C+THREAT+HUNTING;SIEM+%7C+WINDOWS+SECURITY+%7C+INCIDENT+RESPONSE;%3E+status+--lab;Building+%26+Securing+the+LVM+Corporate+Lab_" />
 
-<img width="1500" height="500" alt="baner" src="https://github.com/user-attachments/assets/030b3f3a-1df7-4bb6-9ea5-13b2acd737fd" />
+<br><br>
 
-## 👨‍💻 Sobre
+<img src="https://img.shields.io/badge/PROJECTS-06%20COMPLETED-A855F7?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/CYBERSECURITY-FOCUSED-EC4899?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/LVM-CORPORATE%20LAB-06B6D4?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/BLUE%20TEAM-SOC-22C55E?style=for-the-badge&logo=shieldsdotio&logoColor=white&labelColor=1a1a2e" />
 
-Sou graduado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Segurança da Informação**.
+<br>
 
-Este GitHub reúne os laboratórios e projetos que desenvolvo para estudar e documentar, na prática, como funcionam ambientes corporativos, desde a infraestrutura, identidade e hardening até monitoramento, detecção e resposta a incidentes.
+![Profile Views](https://komarev.com/ghpvc/?username=LVM20&color=A855F7&style=for-the-badge&label=PROFILE+VIEWS)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-TOP%201%25-EC4899?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=1a1a2e)
 
-Mais do que estudar ferramentas isoladamente, meu objetivo é construir os ambientes, enfrentar os problemas que surgem durante a implementação e entender como as diferentes camadas de segurança se relacionam.
+</div>
 
----
+<br>
 
-# 🏢 LVM Corporate Lab
+```ansi
+┌──(leonardo㉿lvm-corp)-[~]
+└─$ cat about_me.txt
 
-O **LVM Corporate Lab** é meu principal projeto.
+[+] Graduado em Análise e Desenvolvimento de Sistemas
+[+] Pós-graduado em Segurança da Informação
+[+] Construindo laboratórios práticos de Cybersecurity, Blue Team e SOC
+[+] Documentando: infraestrutura → hardening → detecção → resposta a incidentes
+[+] Projeto principal: LVM Corporate Lab — infraestrutura corporativa virtualizada
 
-O objetivo é construir e evoluir uma infraestrutura corporativa simulada, utilizando tecnologias e conceitos encontrados no dia a dia de equipes de **Infraestrutura, Blue Team e SOC**.
-
-Cada etapa do laboratório é documentada em um repositório próprio, mostrando a implementação, os desafios encontrados, as soluções aplicadas e as evidências dos resultados.
-
----
-
-# ✅ Projetos concluídos
-
-## Projeto 1 — Active Directory Corporate Lab
-
-Construção da infraestrutura de identidade e serviços corporativos.
-
-* Windows Server 2025
-* Active Directory Domain Services
-* DNS
-* Organizational Units (OUs)
-* Usuários e grupos
-* RBAC
-* Compartilhamentos SMB
-* Permissões
-* Estações Windows ingressadas no domínio
-* Configuração de rede
-
-🔗 Repositório:
-https://github.com/LVM20/LVM-Active-Directory-Lab
+[*] Status: ONLINE | Evoluindo continuamente
+```
 
 ---
 
-## Projeto 2 — Group Policy (GPO) & Windows Hardening
+<div align="center">
 
-Aplicação de políticas de segurança e hardening sobre a infraestrutura criada no Projeto 1.
+# 🏢 LVM CORPORATE LAB
 
-* GPOs corporativas
-* Políticas de senha
-* Account Lockout
-* Auditoria de eventos
-* Windows Firewall
-* Microsoft Defender
-* Restrições de usuários
-* Hardening de estações Windows
-* Baselines e configurações de segurança
+*Uma infraestrutura corporativa simulada, construída peça por peça.*
 
-🔗 Repositório:
-https://github.com/LVM20/LVM-GPO-Hardening-Lab
-
----
-
-## Projeto 3 — Wazuh SIEM + Sysmon
-
-Implementação da camada de monitoramento e visibilidade de segurança do laboratório.
-
-* Wazuh Server
-* Wazuh Agents
-* Sysmon
-* Coleta e análise de eventos
-* Regras de detecção
-* MITRE ATT&CK
-* Dashboards de monitoramento
-* Monitoramento de múltiplos endpoints
-* Análise de processos e eventos Windows
-
-Durante essa etapa também trabalhei na migração do laboratório de **VirtualBox para KVM/QEMU**, além da resolução de problemas de rede, DNS, comunicação entre máquinas e integração dos agentes.
-
-🔗 Repositório:
-https://github.com/LVM20/LVM-Wazuh-SIEM-Sysmon
-
----
-
-## Projeto 4 — Incident Detection & Threat Hunting
-
-Evolução do ambiente de monitoramento para uma abordagem prática de **Threat Detection e Threat Hunting** utilizando o **Wazuh SIEM**.
-
-Foram desenvolvidos **10 casos controlados de investigação** em endpoints Windows, analisando processos, usuários, autenticações, linhas de comando e eventos de segurança.
-
-Entre os cenários investigados:
-
-* Criação de contas e alteração de privilégios
-* Account Manipulation
-* Reconhecimento local
-* Reconhecimento interno
-* PowerShell
-* Windows Command Shell
-* Scheduled Tasks
-* Windows Services
-* PowerShell Encoded Command
-* Análise de Process Trees
-* Falhas de autenticação
-* Limpeza do Windows Security Log
-* Correlação de eventos
-* Análise de Command Line
-* Mapeamento MITRE ATT&CK
-
-Os principais eventos analisados incluíram:
+</div>
 
 ```text
-4624 — Successful Logon
-4625 — Failed Logon
-4688 — Process Creation
-4720 — User Account Created
-4732 — Group Membership Changed
-7045 — Service Installed`
+   🏗️  Infrastructure          ✅
+        ↓
+   🔐  Identity & Hardening    ✅
+        ↓
+   📡  SIEM & Monitoring       ✅
+        ↓
+   🔎  Threat Hunting          ✅
+        ↓
+   🚨  Incident Response       ✅
+        ↓
+   🛡️  Vulnerability Mgmt      ✅
+        ↓
+   🔑  IAM                     🔄
+        ↓
+   🌐  Network Security        🔄
+        ↓
+   ⚔️  Pentest Corporativo     🔄
+        ↓
+   ⚙️  Detection Engineering   🔄
 ```
-🔗 Repositório:
-https://github.com/LVM20/4-LVM-Incident-Detection-Threat-Hunting
-
-## Projeto 5 — Incident Response
-
-Evolução do laboratório para a simulação e investigação de um cenário completo de **Incident Response**, partindo de um ataque inicial de phishing e acompanhando a cadeia de atividades executadas no ambiente Windows.
-
-O cenário simulado começa quando um usuário do RH recebe um arquivo `.zip`, extrai o conteúdo e executa um arquivo malicioso denominado `Relatorio_RH.exe`. A partir da execução inicial, foram simuladas diferentes técnicas e comportamentos que posteriormente foram investigados através dos eventos coletados pelo **Wazuh + Sysmon**.
-
-Durante a investigação, foram analisados:
-
-* Phishing como vetor inicial
-* Execução de arquivo
-* Discovery
-* `whoami`
-* `hostname`
-* `ipconfig`
-* PowerShell
-* PowerShell Encoded Command (`-enc`)
-* Windows Command Shell
-* LOLBins
-* Scheduled Tasks
-* Tentativas de autenticação no Domain Controller
-* Process Parent/Child
-* Command Line
-* Usuários e Logon IDs
-* Windows Event Logs
-* Correlação de eventos
-* Reconstrução da linha do tempo do incidente
-* Mapeamento MITRE ATT&CK
-
-A investigação foi realizada utilizando principalmente o **Wazuh**, analisando os eventos gerados pelos endpoints Windows e correlacionando diferentes evidências para reconstruir a sequência de atividades desde a execução inicial.
-
-Um dos pontos trabalhados foi a análise de **PowerShell Encoded Command**. A presença de um `EncodedCommand` isoladamente não foi considerada suficiente para determinar que um incidente ocorreu. A investigação levou em consideração o processo pai, usuário, linha de comando, eventos anteriores e posteriores e o contexto geral da atividade.
-
-O projeto teve como objetivo praticar o processo completo de resposta a incidentes:
-
-**Detectar → Investigar → Correlacionar → Responder → Documentar**
-
-🔗 Repositório:
-https://github.com/LVM20/05-LVM-Incident-Response
-
-# 🛣️ Evolução do laboratório
-
-| Status | Projeto                                     |
-| ------ | ------------------------------------------- |
-| ✅      | Active Directory Corporate Lab              |
-| ✅      | Group Policy & Windows Hardening            |
-| ✅      | Wazuh SIEM + Sysmon                         |
-| ✅     | Incident Detection & Threat Hunting         |
-| ✅     | Incident Response                           |
-| 🔄     | Vulnerability Management                    |
-| 🔄     | Identity & Access Management                |
-| 🔄     | Network Security                            |
-| 🔄     | Corporate Penetration Testing               |
-| 🔄     | Detection Engineering & Security Automation |
 
 ---
 
-# 🛠️ Tecnologias e conhecimentos
+<div align="center">
 
-### Infraestrutura
+## 🚀 PROJECTS
 
-* Windows Server
-* Active Directory
-* DNS
-* Group Policy
-* SMB
-* KVM/QEMU
-* Linux
+</div>
 
-### Segurança
+<div align="center">
 
-* Wazuh
-* Sysmon
-* SIEM
-* MITRE ATT&CK
-* Windows Hardening
-* Defesa em camadas
-* Princípio do menor privilégio
-* Conceitos de Zero Trust
+| Status | Projeto | Tecnologias |
+|:---:|---|---|
+| 🟣 `DONE` | **01 — Active Directory** | `AD DS` `DNS` `RBAC` `SMB` |
+| 🟣 `DONE` | **02 — Windows Hardening** | `GPO` `Defender` `Firewall` |
+| 🟣 `DONE` | **03 — SIEM + Sysmon** | `Wazuh` `Sysmon` `Windows Events` |
+| 🟣 `DONE` | **04 — Threat Hunting** | `Wazuh` `MITRE ATT&CK` `Detection` |
+| 🟣 `DONE` | **05 — Incident Response** | `Wazuh` `IR` `PowerShell` |
+| 🟣 `DONE` | **06 — Vulnerability Mgmt** | `Greenbone` `OpenVAS` `Nmap` |
+| 🔵 `NEXT` | **07 — IAM** | `Identity` `Access Control` |
+| 🔵 `NEXT` | **08 — Network Security** | `Network Defense` `Monitoring` |
+| 🔵 `NEXT` | **09 — Corporate Pentest** | `Web` `Network` `Pentest` |
+| 🔵 `NEXT` | **10 — Detection Engineering** | `Detection` `Automation` `SOC` |
 
-### Automação e Scripting
-
-* Python
-* Bash
-* PowerShell
+</div>
 
 ---
 
-# 🎯 Objetivo
+<div align="center">
 
-Continuar evoluindo o laboratório para simular cenários cada vez mais próximos de ambientes corporativos reais, conectando **infraestrutura, prevenção, monitoramento, detecção, investigação e resposta a incidentes**.
+## 📊 LAB PROGRESS
 
-A ideia é que cada novo projeto não seja apenas a implementação de uma ferramenta, mas uma evolução da arquitetura e da minha capacidade de analisar e proteger um ambiente.
+### `[██████████████████░░░░░░░░░░]` **60%**
+
+**06 / 10 Projects Completed**
+
+🟣🟣🟣🟣🟣🟣⬜⬜⬜⬜
+
+*Infrastructure → Defense → Detection → Response → Security Operations*
+
+</div>
 
 ---
 
-## 📂 Repositórios
+<div align="center">
 
-Todos os projetos do LVM Corporate Lab:
+## 🛡️ SECURITY STACK
 
-https://github.com/LVM20?tab=repositories
+<img src="https://img.shields.io/badge/Wazuh-7C3AED?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Sysmon-6366F1?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-8B5CF6?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenVAS-06B6D4?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Nmap-2563EB?style=for-the-badge&logo=nmap&logoColor=white" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🪟 Windows
+`Active Directory` `Windows Server` `PowerShell` `GPO` `Windows Events` `Sysmon`
+
+### 🔎 Security
+`Wazuh` `SIEM` `Threat Hunting` `MITRE ATT&CK` `Incident Response` `Vulnerability Management`
+
+### 🐧 Infrastructure
+`Linux` `KVM/QEMU` `DNS` `SMB` `TCP/IP`
+
+### ⚙️ Scripting
+`Python` `Bash` `PowerShell`
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 FOCUS
+
+<img src="https://img.shields.io/badge/-Threat%20Hunting-A855F7?style=flat-square" />
+<img src="https://img.shields.io/badge/-SIEM%20%2F%20Wazuh-06B6D4?style=flat-square" />
+<img src="https://img.shields.io/badge/-Windows%20Security-2563EB?style=flat-square" />
+<img src="https://img.shields.io/badge/-Blue%20Team-22C55E?style=flat-square" />
+<img src="https://img.shields.io/badge/-Incident%20Response-EC4899?style=flat-square" />
+<img src="https://img.shields.io/badge/-Vulnerability%20Management-8B5CF6?style=flat-square" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🔗 EXPLORE THE LAB
+
+[![Explore](https://img.shields.io/badge/🔗%20EXPLORE%20ALL%20PROJECTS-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LVM20?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-poncham/)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=500&color=22C55E&center=true&vCenter=true&width=700&lines=Building...;Detecting...;Investigating...;Responding...;Learning+every+single+day." />
+
+`Cybersecurity` • `SOC` • `Blue Team` • `Threat Hunting`
+
+</div>
